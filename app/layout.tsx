@@ -1,0 +1,1 @@
+import type { Metadata } from "next"; import "./globals.css"; export const metadata:Metadata={title:"Retail Demand Planning Studio",description:"Persistent sales import and baseline forecasting"}; export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
